@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Medical Bill</title>
+<style>
+    body { font-family: Arial, sans-serif; background: #f9f9f9; padding: 20px; }
+    .bill-container { max-width: 600px; margin: auto; background: #fff; padding: 20px; border: 1px solid #ccc; }
+    h2, h4 { text-align: center; margin: 5px 0; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    table, th, td { border: 1px solid #000; }
+    th, td { padding: 10px; text-align: left; }
+    .total { text-align: right; font-weight: bold; }
+    .footer { text-align: center; margin-top: 30px; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<div class="bill-container">
+    <h2>🌿 Green Health Clinic</h2>
+    <h4>Medical Bill</h4>
+
+    <p><strong>Patient Name:</strong> John Doe</p>
+    <p><strong>Patient ID:</strong> P12345</p>
+    <p><strong>Date:</strong> 16-Sep-2025</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Service / Medicine</th>
+                <th>Quantity</th>
+                <th>Rate (₹)</th>
+                <th>Amount (₹)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Consultation Fee</td>
+                <td>1</td>
+                <td>5000</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>Lab Tests</td>
+                <td>1</td>
+                <td>5000</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>Medicines</td>
+                <td>1</td>
+                <td>5000</td>
+                <td>5000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="total">Total</td>
+                <td>₹15,000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="footer">
+        Thank you for visiting Green Health Clinic 🌿
+    </div>
+</div>
+
+</body>
+</html>

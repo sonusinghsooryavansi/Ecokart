@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoCart</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Eco Theme Navbar */
+    .navbar-custom {
+      background: linear-gradient(90deg, #a8e6cf, #dcedc1);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    .navbar-custom .nav-link {
+      color: #344e41;
+      font-weight: 500;
+      margin: 0 10px;
+      transition: all 0.3s ease;
+    }
+    .navbar-custom .nav-link:hover {
+      color: #1b5e20;
+      text-shadow: 0 0 5px #81c784;
+    }
+    .navbar-custom .nav-link.active {
+      font-weight: 700;
+      color: #2e7d32 !important;
+      text-decoration: underline;
+    }
+    .navbar-brand {
+      font-weight: 700;
+      color: #2e7d32 !important;
+      font-size: 1.6rem;
+    }
+    .btn-eco {
+      background-color: #81c784;
+      color: #fff;
+      border-radius: 50px;
+      padding: 5px 15px;
+      transition: all 0.3s ease;
+    }
+    .btn-eco:hover {
+      background-color: #66bb6a;
+      transform: translateY(-2px);
+    }
+
+
+
+    /* Image Hero */
+.hero-image {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('download.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-image .hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Video Hero */
+.hero-video-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-video-section .hero-video {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero-video-section .hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+  </style>
